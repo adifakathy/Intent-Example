@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E6D2EA"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am second activity"
+        android:background="#E17878"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textview2Id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data coming form 1st activity"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textview3Id"/>
+
+
+
+</LinearLayout>

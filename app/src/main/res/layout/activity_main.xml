@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#B0D6F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviwId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am 1st activity"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="write here"
+        />
+
+
+    <Button
+        android:id="@+id/button1Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to next"
+        android:textSize="20dp"
+        android:onClick="firsttbuttonfunction"
+        android:textStyle="bold" />
+
+</LinearLayout>
